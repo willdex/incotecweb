@@ -1,0 +1,2 @@
+[07-Feb-2018 17:56:16 UTC] PHP Fatal error:  Call to undefined function get_template_directory() in /home/grayhatc2/public_html/wp-content/themes/thegem/functions.php on line 3
+[07-Feb-2018 17:56:17 UTC] PHP Fatal error:  Call to undefined function get_template_directory() in /home/grayhatc2/public_html/wp-content/themes/thegem/functions.php on line 3

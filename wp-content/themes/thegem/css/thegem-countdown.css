@@ -1,0 +1,415 @@
+/*** COUNDOWN STYLE 3 ***/
+.countdown-container.countdown-style-3{
+	width: 100%;
+}
+.countdown-style-3 .countdown-info{
+	margin: 0 -21px;
+}
+.countdown-style-3 .countdown-item{
+	display: block;
+	float: left;
+	width: 25%;
+	padding: 21px;
+}
+.countdown-style-3 .wrap{
+	border: 1px solid;
+	height: 245px;
+}
+.countdown-style-3 .item-count{
+	font-size: 50px;
+	line-height: 69px;
+	display: block !important;
+	width: inherit;
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 0;
+}
+.countdown-style-3 .item-title{
+	display: block;
+	width: inherit;
+	text-align: center;
+}
+@media(max-width: 1024px){
+	.countdown-style-3 .countdown-info{
+		margin: 0;
+	}
+}
+@media(max-width: 768px){
+	.countdown-style-3 .countdown-item{
+		width: 50%;
+	}
+	.countdown-style-3 .wrap{
+		height: 225px;
+	}
+}
+@media(max-width: 480px){
+	.countdown-style-3 .countdown-item{
+		width: 100%;
+	}
+	.countdown-style-3 .wrap{
+		height: 150px;
+	}
+	.countdown-style-3 .item-count{
+		margin-top: 23px;
+	}
+}
+
+/*** COUNDOWN STYLE 4 ***/
+.countdown-container.countdown-style-4{
+	width: 100%;
+}
+.countdown-container.countdown-style-4.align-left .countdown-info{
+	float: left;
+}
+.countdown-container.countdown-style-4.align-right .countdown-info{
+	float: right;
+}
+.countdown-container.countdown-style-4.align-center .countdown-info{
+	width: 480px;
+	margin: auto;
+}
+.countdown-style-4 .countdown-item{
+	display: block;
+	float: left;
+	width: 120px;
+}
+.countdown-style-4 .wrap{
+	height: 85px;
+}
+.countdown-style-4 .countdown-item:not(:last-child) .wrap{
+	border-right: 1px solid;
+}
+.countdown-style-4 .item-count{
+	font-size: 36px;
+	line-height: 53px;
+	display: block !important;
+	width: inherit;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.countdown-style-4 .item-title{
+	display: block;
+	width: inherit;
+	text-align: center;
+}
+@media(max-width: 768px){
+	/*.countdown-style-4 .wrap{*/
+		/*padding-top: 10px;*/
+	/*}*/
+}
+@media(max-width: 480px){
+	.countdown-style-4 .countdown-item .wrap{
+		border: none !important;
+	}
+	.countdown-style-4 .item-count{
+		font-size: 24px;
+		line-height: 28px;
+	}
+}
+
+
+/*** COUNDOWN STYLE 5 ***/
+.countdown-container.countdown-style-5{
+	width: 100%;
+	text-align: center;
+}
+.countdown-style-5 .countdown-item{
+	display: inline-block;
+	width: 25%;
+	min-width: 245px;
+	height: 308px;
+	position: relative;
+	padding-top: 0;
+
+}
+.countdown-style-5 .wrap{
+	position: absolute;
+	width: 216px;
+	height: 216px;
+	margin-left: -108px;
+	left: 50%;
+	z-index: 10;
+	padding-top: 70px;
+}
+.countdown-style-5 .item-count{
+	font-size: 50px;
+	line-height: 69px;
+	display: block !important;
+	width: inherit;
+	text-align: center;
+	padding-bottom: 100px;
+	margin: 0;
+}
+.countdown-style-5 .item-title{
+	display: block;
+	width: inherit;
+	text-align: center;
+}
+.countdown-style-5 .circle-raphael-days,
+.countdown-style-5 .circle-raphael-hours,
+.countdown-style-5 .circle-raphael-minutes,
+.countdown-style-5 .circle-raphael-seconds{
+	position: absolute;
+	width: 216px;
+	height: 216px;
+	margin-left: -108px;
+	left: 50%;
+	z-index: 20;
+}
+@media(max-width: 768px){
+	.countdown-style-5 .countdown-item{
+		width: 50%;
+	}
+}
+
+
+
+/*** COUNTDOWN STYLE 6 ***/
+.countdown-container.countdown-style-6{
+	width: 320px;
+}
+.countdown-container.countdown-style-6.align-left{
+	float: left;
+}
+.countdown-container.countdown-style-6.align-right{
+	float: right;
+}
+.countdown-container.countdown-style-6.align-center{
+	margin: auto;
+}
+.countdown-style-6 .countdown-item{
+	display: block;
+	float: left;
+	width: 130px;
+	height: 130px;
+}
+.countdown-style-6 .countdown-item.count-1{
+	width: 190px;
+}
+.countdown-style-6 .countdown-item.count-3{
+	width: 190px;
+}
+.countdown-style-6 .countdown-item-border-1{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 130px;
+	height: 1px;
+	background: #b5bcc1;
+}
+.countdown-style-6 .countdown-item-border-2{
+	position: absolute;
+	bottom: 0;
+	left: -1px;
+	width: 1px;
+	height: 130px;
+	background: #b5bcc1;
+}
+.countdown-style-6 .countdown-item-border-3{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 1px;
+	height: 130px;
+	background: #b5bcc1;
+}
+.countdown-style-6 .countdown-item-border-4{
+	position: absolute;
+	top: -1px;
+	left: 0;
+	width: 130px;
+	height: 1px;
+	background: #b5bcc1;
+}
+.countdown-style-6 .countdown-item.count-1 .item-title,
+.countdown-style-6 .countdown-item.count-3 .item-title{
+	position: absolute;
+	right: 37px;
+}
+.countdown-style-6 .countdown-item.count-1 .item-count,
+.countdown-style-6 .countdown-item.count-3 .item-count{
+	position: absolute;
+	right: 30px;
+}
+.countdown-style-6 .countdown-item.count-2 .item-title,
+.countdown-style-6 .countdown-item.count-4 .item-title{
+	position: absolute;
+	right: 7px;
+}
+.countdown-style-6 .countdown-item.count-2 .item-count,
+.countdown-style-6 .countdown-item.count-4 .item-count{
+	position: absolute;
+	right: 0;
+}
+.countdown-style-6 .wrap{
+	position: relative;
+	width: 134px;
+	height: 130px;
+}
+.countdown-style-6 .count-1 .wrap,
+.countdown-style-6 .count-3 .wrap{
+	width: 190px;
+}
+.countdown-style-6 .item-title{
+	display: block;
+	top: 15px;
+}
+.countdown-style-6 .item-count{
+	display: block;
+	top: 32px;
+	margin: 0;
+}
+@media(max-width: 570px){
+	.countdown-style-6 .countdown-item{
+		width: 120px;
+		height: 120px;
+	}
+	.countdown-style-6 .wrap{
+		width: 120px;
+		height: 120px;
+	}
+	.countdown-style-6 .countdown-item.count-1 .item-title,
+	.countdown-style-6 .countdown-item.count-3 .item-title{
+		position: absolute;
+		right: 27px;
+	}
+	.countdown-style-6 .countdown-item.count-1 .item-count,
+	.countdown-style-6 .countdown-item.count-3 .item-count{
+		position: absolute;
+		right: 20px;
+	}
+	.countdown-style-6 .item-count{
+		font-size: 60px;
+		font-weight: 700;
+		line-height: 60px;
+		top: 37px;
+	}
+}
+
+
+
+
+/*** COUNTDOWN STYLE 7 ***/
+.countdown-container.countdown-style-7{
+	width: inherit;
+}
+.countdown-container.countdown-style-7.align-left{
+	float: left;
+	clear: left;
+}
+.countdown-container.countdown-style-7.align-right{
+	float: right;
+	clear: right;
+}
+.countdown-container.countdown-style-7.align-center{
+	text-align: center;
+}
+.countdown-container.countdown-style-7 .item-count{
+	font-size: 100px;
+	line-height: 100px;
+	display: block;
+	height: 120px;
+	margin: 0;
+}
+
+
+.vc_countdown_shortcode > * {
+	display: none;
+}
+.vc_countdown_shortcode {
+	height: 200px;
+	background: #f0f4f7 url('../../themes/thegem/images/admin-images/countdown-dummy.png') no-repeat 50% 50%;
+}
+
+
+
+/* Display first numbers */
+.countdown-container .countdown-hours .odometer-inside .odometer-digit:first-child,
+.countdown-container .countdown-minutes .odometer-inside .odometer-digit:first-child,
+.countdown-container .countdown-seconds .odometer-inside .odometer-digit:first-child{
+	display: none;
+}
+
+
+.countdown-container .odometer.odometer-theme-minimal {
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    *zoom: 1;
+    *display: inline;
+    position: relative;
+}
+.countdown-container .odometer.odometer-theme-minimal .odometer-digit {
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    *zoom: 1;
+    *display: inline;
+    position: relative;
+}
+.countdown-container .odometer.odometer-theme-minimal .odometer-digit .odometer-digit-spacer {
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    *zoom: 1;
+    *display: inline;
+    visibility: hidden;
+}
+.countdown-container .odometer.odometer-theme-minimal .odometer-digit .odometer-digit-inner {
+    text-align: left;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+.countdown-container .odometer.odometer-theme-minimal .odometer-digit .odometer-ribbon {
+    display: block;
+}
+.countdown-container .odometer.odometer-theme-minimal .odometer-digit .odometer-ribbon-inner {
+    display: block;
+    -webkit-backface-visibility: hidden;
+}
+.countdown-container .odometer.odometer-theme-minimal .odometer-digit .odometer-value {
+    display: block;
+    -webkit-transform: translateZ(0);
+}
+.countdown-container .odometer.odometer-theme-minimal .odometer-digit .odometer-value.odometer-last-value {
+    position: absolute;
+}
+.countdown-container .odometer.odometer-theme-minimal.odometer-animating-up .odometer-ribbon-inner {
+    -webkit-transition: -webkit-transform 1s;
+    -moz-transition: -moz-transform 1s;
+    -ms-transition: -ms-transform 1s;
+    -o-transition: -o-transform 1s;
+    transition: transform 1s;
+}
+.countdown-container .odometer.odometer-theme-minimal.odometer-animating-up.odometer-animating .odometer-ribbon-inner {
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+.countdown-container .odometer.odometer-theme-minimal.odometer-animating-down .odometer-ribbon-inner {
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+.countdown-container .odometer.odometer-theme-minimal.odometer-animating-down.odometer-animating .odometer-ribbon-inner {
+    -webkit-transition: -webkit-transform 1s;
+    -moz-transition: -moz-transform 1s;
+    -ms-transition: -ms-transform 1s;
+    -o-transition: -o-transform 1s;
+    transition: transform 1s;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}

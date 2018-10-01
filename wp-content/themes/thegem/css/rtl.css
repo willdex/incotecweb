@@ -1,0 +1,39 @@
+/*
+Theme Name: thegem
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+caption,
+th,
+td {
+	text-align: right;
+}
+
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+}
+
+caption,
+th,
+td {
+	text-align: right;
+}
+.site-title * {
+	direction: ltr !important;
+	text-align: left !important;
+}
+
+body .widget_recent_entries ul li a{
+	padding-right: 42px;
+	padding-left: 15px;
+}
+
+.gem-icon * {
+	 direction: ltr;
+}

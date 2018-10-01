@@ -1,0 +1,2 @@
+[07-Feb-2018 17:56:18 UTC] PHP Fatal error:  Call to undefined function post_password_required() in /home/grayhatc2/public_html/wp-content/themes/twentysixteen/comments.php on line 18
+[07-Feb-2018 17:56:19 UTC] PHP Fatal error:  Call to undefined function post_password_required() in /home/grayhatc2/public_html/wp-content/themes/twentysixteen/comments.php on line 18
